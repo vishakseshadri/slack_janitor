@@ -1,0 +1,4 @@
+audit.log
+allowlist.txt
+archivelist.txt
+.env
