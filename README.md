@@ -4,6 +4,8 @@ Available Dry Run mode, with the options to provide an allowlist and archivelist
 The channel names mentioned in allowlist.txt will not be archived even if it meets criteria
 If there are any channels in archivelist.txt, only they will be checked for archival.
 
+Originally looked into https://github.com/Symantec/slack-autoarchive but it had some issues which were easier to fix by rewriting in Ruby. 
+
 ## Requirements
 * Ruby 2.7.1
 * Slack App with the following Scopes:
